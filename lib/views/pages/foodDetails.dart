@@ -494,6 +494,4 @@ class Fooddetails extends StatelessWidget {
       ),
     );
   }
-
-
 }

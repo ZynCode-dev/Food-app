@@ -458,10 +458,9 @@ class Home extends StatelessWidget {
                 SizedBox(height: 10),
                 Row(
                   children: [
-                    // Rating
-                    Icon(
-                      Icons.star,
-                      color: Colors.orange,
+                    HugeIcon(
+                      icon: HugeIcons.strokeRoundedStar,
+                      color: Color(0XFFff7622),
                       size: 20,
                     ),
                     SizedBox(width: 4),
@@ -473,9 +472,9 @@ class Home extends StatelessWidget {
                       ),
                     ),
                     SizedBox(width: 16), // Space between rating and delivery icon
-                    Icon(
-                      Icons.local_shipping,
-                      color: Colors.orange,
+                    HugeIcon(
+                      icon: HugeIcons.strokeRoundedShippingTruck01,
+                      color: Color(0XFFff7622),
                       size: 20,
                     ),
                     SizedBox(width: 4),
@@ -486,9 +485,9 @@ class Home extends StatelessWidget {
                       ),
                     ),
                     SizedBox(width: 16), // Space between delivery and time
-                    Icon(
-                      Icons.timer,
-                      color: Colors.orange,
+                    HugeIcon(
+                      icon: HugeIcons.strokeRoundedTimer01,
+                      color: Color(0XFFff7622),
                       size: 20,
                     ),
                     SizedBox(width: 4),

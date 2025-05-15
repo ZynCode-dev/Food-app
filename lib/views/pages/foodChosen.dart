@@ -273,10 +273,9 @@ class FoodChosen extends StatelessWidget {
                 SizedBox(height: 10),
                 Row(
                   children: [
-                    // Rating
-                    Icon(
-                      Icons.star,
-                      color: Colors.orange,
+                    HugeIcon(
+                      icon: HugeIcons.strokeRoundedStar,
+                      color: Color(0XFFff7622),
                       size: 20,
                     ),
                     SizedBox(width: 4),
@@ -287,13 +286,10 @@ class FoodChosen extends StatelessWidget {
                         fontWeight: FontWeight.bold,
                       ),
                     ),
-
                     SizedBox(width: 16), // Space between rating and delivery icon
-
-                    // Delivery
-                    Icon(
-                      Icons.local_shipping,
-                      color: Colors.orange,
+                    HugeIcon(
+                      icon: HugeIcons.strokeRoundedShippingTruck01,
+                      color: Color(0XFFff7622),
                       size: 20,
                     ),
                     SizedBox(width: 4),
@@ -303,13 +299,10 @@ class FoodChosen extends StatelessWidget {
                         fontSize: 16,
                       ),
                     ),
-
                     SizedBox(width: 16), // Space between delivery and time
-
-                    // Time
-                    Icon(
-                      Icons.timer,
-                      color: Colors.orange,
+                    HugeIcon(
+                      icon: HugeIcons.strokeRoundedTimer01,
+                      color: Color(0XFFff7622),
                       size: 20,
                     ),
                     SizedBox(width: 4),
@@ -324,12 +317,8 @@ class FoodChosen extends StatelessWidget {
               ],
             ),
           )
-
-          // Restaurant name
-
         ],
       ),
     );
   }
-
 }
